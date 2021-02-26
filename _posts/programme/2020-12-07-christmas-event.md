@@ -20,12 +20,6 @@ time:
 registration_url: https://indico.scc.kit.edu/event/2266/
 ---
 
-<div>
-  {% assign time=page.time[0][0] %}
-  {% include registration-button.html %}
-  {% include add-to-calendar-button.html %}
-</div>
-
 Are you already looking forward to the festive break for some relaxation? Yes,
 so are we! But just before you close your computer down for possibly the last
 time in 2020, join us for a lighthearted look at _When Spreadsheets Attack!_
@@ -65,7 +59,7 @@ to use and how did you persuade the researcher to give it a go? Email Claire
 to volunteer yourself or nominate a colleague via [{{ site.email }}](mailto:{{ site.email }}).
 
 
-## Agenda
+## Agenda for December, 17th
 
 All times in UTC.
 
@@ -74,7 +68,7 @@ All times in UTC.
   Engineering, University of Sheffield - "About the Society"
 - **15:00**: [Matt Parker - "When Spreadsheets Attack! (and other maths disasters)" ]({{ "/programme/talks/event-038/" | relative_url }})
 - **16:00**: Community tales from the front line
-  - From an RSE perspective: Marion Weinzierl and Chris Cave-Ayland
+  - From an RSE perspective: Marion Weinzierl and Chris Cave-Ayland, Stephan Druskat and Thomas Krause, Alexander Struck
   - From a research perspective: Simon Hettrick
 
 This event has been kindly funded by the Society of Research Software Engineering.
